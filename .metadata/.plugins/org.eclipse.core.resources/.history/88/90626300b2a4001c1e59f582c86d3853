@@ -1,0 +1,15 @@
+package thp.tp1.actividad1;
+
+import java.util.Scanner;
+
+public class Punto3 {
+	final static Scanner input = new Scanner(System.in);
+	
+	public static void main(String[] args) {
+		double num;
+		
+		num = Double.parseInt(input.nextLine());
+		
+		
+	}
+}

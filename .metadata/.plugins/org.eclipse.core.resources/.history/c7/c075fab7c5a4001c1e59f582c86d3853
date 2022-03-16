@@ -1,0 +1,5 @@
+package thp.tp1.actividad1;
+
+public interface inter {
+	public name(String n) 
+}

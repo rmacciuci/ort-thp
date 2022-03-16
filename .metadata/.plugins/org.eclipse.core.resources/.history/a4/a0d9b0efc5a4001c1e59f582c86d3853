@@ -1,0 +1,15 @@
+package thp.tp1.actividad1;
+
+interface putit {
+	public void putito();
+}
+
+public class Punto2 implements putit {
+	public static void main(String[] args) {
+		
+	}
+	
+	public void putito() {
+		
+	}
+}
