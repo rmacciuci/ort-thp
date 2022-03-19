@@ -1,0 +1,23 @@
+package tp1.ejercicio10;
+
+import java.util.Scanner;
+
+public class Ejercicio10 {
+	final static Scanner input = new Scanner(System.in);
+	
+    public static void main(String[] args) {
+        double valorTotalAportado, aporteSocio1, aporteSocio2, aporteSocio3;
+        String socio1, socio2, socio3;
+        int aportePjeSocio1, aportePjeSocio2, aportePjeSocio3;
+        
+        // Solicitamos datos del socio1
+        System.out.println("Por favor ingrese el nombre del socio 1:");
+        socio1 = input.nextLine();
+        System.out.println("Ingrese el capital aportado por " + socio1 + "(socio 1):");
+        aporteSocio1 = Double.parseDouble(input.nextLine());
+        
+        
+        
+        
+    }
+}
