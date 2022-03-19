@@ -23,5 +23,6 @@ public class Ejercicio2 {
         promedio = (nota1 + nota2 + nota3) / CANT_NOTAS;
         
         System.out.println("El promedio anual de las 3 notas ingresadas es: " + promedio);
+        
     }
 }

@@ -12,16 +12,13 @@ public class Ejercicio2 {
         System.out.println("Hola, vamos a calcular el promedio de las 3 que deberas ingresar a continuación");
         
         System.out.println("Ingresar nota 1:");
-        nota1 = Double.parseDouble(input.nextLine());
+        nota1 = (double) input.nextLine();
         
-        System.out.println("Ingresar nota 2:");
-        nota2 = Double.parseDouble(input.nextLine());
+        System.out.println("Ingresar nota 1:");
+        nota1 = input.nextLine();
         
-        System.out.println("Ingresar nota 3:");
-        nota3 = Double.parseDouble(input.nextLine());
+        System.out.println("Ingresar nota 1:");
+        nota1 = input.nextLine();
         
-        promedio = (nota1 + nota2 + nota3) / CANT_NOTAS;
-        
-        System.out.println("El promedio anual de las 3 notas ingresadas es: " + promedio);
     }
 }
